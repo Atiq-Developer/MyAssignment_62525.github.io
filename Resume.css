@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    min-width: 1000px;
+    min-height: 1000px;
+    background: #fff;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.2);
+}
+
+.container .left {
+    padding: 20px;
+    margin: 40px;
+    background-color: #f8f8f8;
+    position: relative;
+    border-radius: 10px;
+}
+
+.container .right {
+    padding: 20px;
+    margin: 40px;
+    background-color: #f8f8f8;
+    position: relative;
+    border-radius: 10px;
+}
+
+.underline {
+    width: 50px;
+    height: 3px;
+    background-color: #008CBA;
+    margin: auto;
+}
+
+.underline2 {
+    width: 200px;
+    height: 3px;
+    background-color: #4f5252;
+    margin: auto;
+}
+
+.name {
+    font-size: 20px;
+    font-weight: 600;
+    color: #0078D7;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+.title {
+    font-size: 18px;
+    color: gray;
+    letter-spacing: 1px;
+    text-align: center;
+    justify-content: center;
+}
+
+.profileText {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+
+.profileText .profileImg {
+    position: relative;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 30px auto 10px;
+    background: white;
+    z-index: 2;
+    position: relative;
+}
+
+.profileText .profileImg img {
+    width: 100%;
+    height: auto;
+}
+
+.about h2 {
+    margin-top: 20px;
+    font-size: 22px;
+    text-align: center;
+    color: #5f6262;
+}
+
+.underline {
+    margin-top: 5px;
+    width: 50px;
+    height: 3px;
+    background: #007ACC;
+}
+
+.underline2 {
+    width: 250px;
+    height: 3px;
+    background-color: #5f6262;
+    margin: auto;
+}
+
+.about p {
+    font-size: 14px;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px 10px;
+    text-align: justify;
+}
+
+.skills-section,
+.software-languages {
+    margin-top: 30px;
+}
+
+.skills-section h3,
+.software h3,
+.languages h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #007ACC;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.section-title {
+    color: #008CBA;
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 16px;
+    text-align: left;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-top: 10px;
+}
+
+.skill {
+    width: 100%;
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+}
+
+.skill-name {
+    width: 40%;
+    font-size: 14px;
+}
+
+.skill-bar {
+    width: 60%;
+    height: 5px;
+    background: #ddd;
+    position: relative;
+    border-radius: 5px;
+}
+
+.skill-bar span {
+    display: block;
+    height: 100%;
+    background: #414243;
+}
+
+.software-languages {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    max-width: 600px;
+    margin: auto;
+}
+
+.software,
+.languages {
+    width: 48%;
+}
+
+.software h3,
+.languages h3 {
+    color: #008CBA;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.software ul,
+.languages ul {
+    list-style: none;
+    padding: 0;
+}
+
+.software ul li,
+.languages ul li {
+    font-size: 14px;
+    color: #333;
+    padding: 4px 0;
+}
+
+.contact h2 {
+    margin-top: 20px;
+    font-size: 22px;
+    text-align: center;
+}
+
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin: 8px 0;
+}
+
+.contact-item i {
+    font-size: 16px;
+    color: #555;
+    margin-right: 10px;
+}
+
+.contact-item span {
+    font-size: 14px;
+    color: #333;
+}
+
+.clipped-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 280px;
+    background-color: #0078D7;
+    clip-path: polygon(0 0, 100% 0, 0 100%);
+    z-index: 1;
+}
+
+.underline1 {
+    margin-top: 10px;
+    width: 50px;
+    height: 3px;
+    background-color: #008CBA;
+    margin: left;
+}
+
+.underline3 {
+    width: 100%;
+    height: 3px;
+    background-color: #3b3e3e;
+}
+
+.work-experience_education {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.job {
+    margin-top: 50px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.job h3 {
+    margin: 0;
+    color: gray;
+    font-weight: 100;
+    text-align: end;
+    font-size: 16px;
+}
+
+
+.job span {
+    font-size: 14px;
+    color: gray;
+    display: block;
+    text-align: end;
+}
+
+.company {
+    font-weight: bold;
+    color: gray;
+}
+
+.description {
+    font-size: 0.95em;
+    color: #555;
+    margin-top: 5px;
+}
+
+.left1 {
+    width: 30%;
+}
+
+.right1 {
+    width: 65%;
+}
+
+.top {
+    margin-top: 60px;
+}
+
+.hobbies-list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.hobby-item {
+    text-align: center;
+    flex: 1;
+}
+
+.hobby-item i {
+    font-size: 30px;
+    color: #333;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.hobby-item br {
+    display: none;
+}
+
+.hobby-item img {
+    width: 30px;
+
+    height: 30px;
+
+    display: block;
+    margin: 0 auto 5px;
+
+}
